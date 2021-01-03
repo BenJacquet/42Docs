@@ -17,6 +17,7 @@
   - ssl -- tool qui configue automatiquement un protocole ssl  : https://github.com/FiloSottile/mkcert
   - ssl -- command openssl (apt-get install openssl) : https://help.tableau.com/current/server/en-us/ssl_cert_create.htm
   - nginx, mysql, php : https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
+  - phpmyadmin : https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-source-debian-10
   
 
 
