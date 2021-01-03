@@ -9,6 +9,11 @@
  
  ## ft_server : 
 
+   ### Lancement docker :
+    ```
+    docker build -t name .
+    docker run -it -p ports:ports name
+    ```
    - Les bases de dockers -- 1 : https://www.youtube.com/watch?v=SXB6KJ4u5vg&t=256s
    - Les bases de dockers -- 2 : https://www.youtube.com/watch?v=cWkmqZPWwiw&t=284s
    - docker : https://www.youtube.com/watch?v=XgKOC6X8W28&t=1131s
