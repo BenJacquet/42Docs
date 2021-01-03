@@ -5,7 +5,7 @@
   > Je suis un test<br>
   > re test
  ```
-  je suis une command
+  je suis une commande
   ```
 ## netwhat :
   
