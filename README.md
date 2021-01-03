@@ -11,6 +11,7 @@
 
   - Les bases de dockers -- 1 : https://www.youtube.com/watch?v=SXB6KJ4u5vg&t=256s
   - Les bases de dockers -- 2 : https://www.youtube.com/watch?v=cWkmqZPWwiw&t=284s
+  - docker : https://www.youtube.com/watch?v=XgKOC6X8W28&t=1131s
   - nginx : https://www.youtube.com/watch?v=YD_exb9aPZU&t=870s
   - nginx, mysql, php : https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
   
