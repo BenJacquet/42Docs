@@ -1,13 +1,13 @@
 # 42docs
 
-# netwhat :
+## netwhat :
   
   - cours sur le projet : https://github.com/rchallie/netwhat/blob/master/research.md
   - calculateur : https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/
   - cours openclassrooms : https://openclassrooms.com/fr/courses/857447-apprenez-le-fonctionnement-des-reseaux-tcp-ip
   
  
-# ft_server : 
+## ft_server : 
 
   - Les bases de dockers -- 1 : https://www.youtube.com/watch?v=SXB6KJ4u5vg&t=256s
   - Les bases de dockers -- 2 : https://www.youtube.com/watch?v=cWkmqZPWwiw&t=284s
@@ -22,7 +22,7 @@
   
 
 
-# cub3d : 
+## cub3d : 
 
   - mlx : https://harm-smits.github.io/42docs/libs/minilibx/introduction.html
   - Tuto raycasting : https://lodev.org/cgtutor/raycasting.html
