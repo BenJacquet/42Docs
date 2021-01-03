@@ -21,5 +21,5 @@
 
   - mlx : https://harm-smits.github.io/42docs/libs/minilibx/introduction.html
   - Tuto raycasting : https://lodev.org/cgtutor/raycasting.html
-  - algorithm DDA : https://fr.wikipedia.org/wiki/Analyseur_diff%C3%A9rentiel_num%C3%A9rique
+  - algorithm DDA : https://en.wikipedia.org/wiki/Digital_differential_analyzer_(graphics_algorithm)
   
