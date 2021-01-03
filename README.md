@@ -1,5 +1,8 @@
 # 42docs
 
+## test :
+  [Makefile](https://github.com/mbeaujar/libft/blob/master/Makefile)
+
 ## netwhat :
   
   - cours sur le projet : https://github.com/rchallie/netwhat/blob/master/research.md
