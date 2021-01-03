@@ -1,30 +1,30 @@
 # 42docs
 
-## netwhat :
+ ## netwhat :
   
-  - cours sur le projet : https://github.com/rchallie/netwhat/blob/master/research.md
-  - calculateur : https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/
-  - cours openclassrooms : https://openclassrooms.com/fr/courses/857447-apprenez-le-fonctionnement-des-reseaux-tcp-ip
+   - cours sur le projet : https://github.com/rchallie/netwhat/blob/master/research.md
+   - calculateur : https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/
+   - cours openclassrooms : https://openclassrooms.com/fr/courses/857447-apprenez-le-fonctionnement-des-reseaux-tcp-ip
   
  
-## ft_server : 
+ ## ft_server : 
 
-  - Les bases de dockers -- 1 : https://www.youtube.com/watch?v=SXB6KJ4u5vg&t=256s
-  - Les bases de dockers -- 2 : https://www.youtube.com/watch?v=cWkmqZPWwiw&t=284s
-  - docker : https://www.youtube.com/watch?v=XgKOC6X8W28&t=1131s
-  - nginx : https://www.youtube.com/watch?v=YD_exb9aPZU&t=870s
-  - ssl -- Découverte du protocole ssl  : https://www.youtube.com/watch?v=_UpuZ0Y3k-c&t=418s
-  - ssl -- tool qui configue automatiquement un protocole ssl  : https://github.com/FiloSottile/mkcert
-  - ssl -- command openssl (apt-get install openssl) : https://help.tableau.com/current/server/en-us/ssl_cert_create.htm
-  - nginx, mysql, php : https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
-  - phpmyadmin : https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-source-debian-10
-  - mysql command : http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.htm
+   - Les bases de dockers -- 1 : https://www.youtube.com/watch?v=SXB6KJ4u5vg&t=256s
+   - Les bases de dockers -- 2 : https://www.youtube.com/watch?v=cWkmqZPWwiw&t=284s
+   - docker : https://www.youtube.com/watch?v=XgKOC6X8W28&t=1131s
+   - nginx : https://www.youtube.com/watch?v=YD_exb9aPZU&t=870s
+   - ssl -- Découverte du protocole ssl  : https://www.youtube.com/watch?v=_UpuZ0Y3k-c&t=418s
+   - ssl -- tool qui configue automatiquement un protocole ssl  : https://github.com/FiloSottile/mkcert
+   - ssl -- command openssl (apt-get install openssl) : https://help.tableau.com/current/server/en-us/ssl_cert_create.htm
+   - nginx, mysql, php : https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
+   - phpmyadmin : https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-source-debian-10
+   - mysql command : http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.htm
   
 
 
-## cub3d : 
+ ## cub3d : 
 
-  - mlx : https://harm-smits.github.io/42docs/libs/minilibx/introduction.html
-  - Tuto raycasting : https://lodev.org/cgtutor/raycasting.html
-  - algorithm DDA : https://en.wikipedia.org/wiki/Digital_differential_analyzer_(graphics_algorithm)
+   - mlx : https://harm-smits.github.io/42docs/libs/minilibx/introduction.html
+   - Tuto raycasting : https://lodev.org/cgtutor/raycasting.html
+   - algorithm DDA : https://en.wikipedia.org/wiki/Digital_differential_analyzer_(graphics_algorithm)
   
