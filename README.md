@@ -34,5 +34,5 @@
   - mlx : https://harm-smits.github.io/42docs/libs/minilibx/introduction.html
   - Tuto raycasting : https://lodev.org/cgtutor/raycasting.html
   - algorithm DDA : https://en.wikipedia.org/wiki/Digital_differential_analyzer_(graphics_algorithm)
-  - raycasting theorie : [lien](https://guy-grave.developpez.com/tutoriels/jeux/doom-wolfenstein-raycasting?)
+  - raycasting theorie : https://guy-grave.developpez.com/tutoriels/jeux/doom-wolfenstein-raycasting
   
