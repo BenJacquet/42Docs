@@ -36,4 +36,5 @@
   - algorithm DDA : https://en.wikipedia.org/wiki/Digital_differential_analyzer_(graphics_algorithm)
   - raycasting theorie : https://guy-grave.developpez.com/tutoriels/jeux/doom-wolfenstein-raycasting
   - raycasting sites interessant : https://permadi.com/1996/05/ray-casting-tutorial-9/ https://www.permadi.com/tutorial/raycast/rayc9.html
+  - raycasting youtube : https://www.youtube.com/watch?v=gYRrGTC7GtA&t=50s
   
