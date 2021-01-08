@@ -1,12 +1,5 @@
 # 42docs
 
-## README :
-  [Makefile](https://github.com/mbeaujar/libft/blob/master/Makefile)
-  > Je suis un test<br>
-  > re test
- ```
-  je suis une commande
-  ```
 ## netwhat :
   
   - cours sur le projet : https://github.com/rchallie/netwhat/blob/master/research.md
