@@ -33,9 +33,8 @@
   - generateur de map cub3d : https://github.com/revarsavr/mapgen
   - push une image sur mlx :
   ```
-  	mlx_destroy_image(mlx, img);
+	mlx_destroy_image(mlx, img);
 	img = mlx_new_image(mlx, resolution_x, resolution_y);
 	addr= mlx_get_data_addr(img, &bits_per_pixel, &line_length, &endian);
 	mlx_put_image_to_window(mlx, win, img, 0, 0);
   ```
-  
