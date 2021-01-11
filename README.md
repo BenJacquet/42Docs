@@ -31,4 +31,10 @@
   - raycasting sites interessant : https://permadi.com/1996/05/ray-casting-tutorial-9/ https://www.permadi.com/tutorial/raycast/rayc9.html
   - raycasting youtube : https://www.youtube.com/watch?v=gYRrGTC7GtA&t=50s
   - generateur de map cub3d : https://github.com/revarsavr/mapgen
+  - push une image sur mlx :
+  ```
+  mlx_destroy_image(mlx, img);
+	img = mlx_new_image(mlx, resolution_x, resolution_y);
+	addr= mlx_get_data_addr(img, &bits_per_pixel, &line_length, &endian);
+  ```
   
