@@ -31,6 +31,7 @@
   - raycasting sites interessant : https://permadi.com/1996/05/ray-casting-tutorial-9/ https://www.permadi.com/tutorial/raycast/rayc9.html
   - raycasting youtube : https://www.youtube.com/watch?v=gYRrGTC7GtA&t=50s
   - generateur de map cub3d : https://github.com/revarsavr/mapgen
+  - algo pour faire un ligne d'un point A a un point B : https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm
   - push une image sur mlx :
   ```
 	mlx_destroy_image(mlx, img);
