@@ -39,3 +39,9 @@
 	addr= mlx_get_data_addr(img, &bits_per_pixel, &line_length, &endian);
 	mlx_put_image_to_window(mlx, win, img, 0, 0);
   ```
+  
+ ## libasm : 
+ 
+ - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
+ - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
+ - register : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
