@@ -40,3 +40,4 @@
  - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
  - register : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
  - syscall for linux : https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
+ - informations intéressantes : https://www.lacl.fr/tan/asm
