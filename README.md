@@ -32,6 +32,7 @@
   - raycasting youtube : https://www.youtube.com/watch?v=gYRrGTC7GtA&t=50s
   - generateur de map cub3d : https://github.com/revarsavr/mapgen
   - algo pour faire un ligne d'un point A a un point B : https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm
+  - minilibx linux : https://github.com/42Paris/minilibx-linux.git
   
  ## libasm : 
  
