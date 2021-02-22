@@ -42,3 +42,4 @@
  - syscall for linux : https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
  - informations intéressantes : https://www.lacl.fr/tan/asm
  - jump if ?? : https://www.gladir.com/LEXIQUE/ASM/jumpif.htm
+ - Testeur : https://github.com/cacharle/libasm_test
