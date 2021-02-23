@@ -43,6 +43,7 @@
  - informations intéressantes : https://www.lacl.fr/tan/asm
  - jump if ?? : https://www.gladir.com/LEXIQUE/ASM/jumpif.htm
  - Testeur : https://github.com/cacharle/libasm_test
+ - cours : https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf
 
 ## ft_services :
   
