@@ -51,6 +51,7 @@
         Fourth Argument: RCX
         Fifth Argument: R8
         Sixth Argument: R9
+        le reste est empile sur la stack
 
 ## ft_services :
   
