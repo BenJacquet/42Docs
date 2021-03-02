@@ -78,4 +78,6 @@
  - https://www.ionos.fr/digitalguide/serveur/know-how/quest-ce-quun-reverse-proxy-le-serveur-reverse-proxy/
  - https://phil.writesthisblog.com/https-certificat-ssl-selfsigned/
  - https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/
+ - https://devopssec.fr/article/cours-complet-apprendre-technologie-docker#begin-article-section
+ - https://devopssec.fr/article/cours-complet-apprendre-orchestrateur-kubernetes-k8s
 
