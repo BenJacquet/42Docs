@@ -85,4 +85,5 @@
 ## push_swap :
 
 - fichier de correction : https://github.com/42sommecaise/42Docs/blob/master/message.txt
+- https://fr.wikipedia.org/wiki/Algorithme_de_trihttps://fr.wikipedia.org/wiki/Algorithme_de_tri
 
