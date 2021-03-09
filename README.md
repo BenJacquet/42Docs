@@ -90,4 +90,4 @@
 ## philosophers :
 
 - Sur les threads, très bon guide de démarrage https://franckh.developpez.com/tutoriels/posix/pthreads/
-- Sur les sémaphores, bonne doc pour expliquer le concept: https://sites.uclouvain.be/SyllabusC/notes/Theorie/Threads/coordination.html
+- Sur les sémaphores https://sites.uclouvain.be/SyllabusC/notes/Theorie/Threads/coordination.html
