@@ -87,3 +87,7 @@
 - fichier de correction : https://github.com/42sommecaise/42Docs/blob/master/message.txt
 - https://fr.wikipedia.org/wiki/Algorithme_de_trihttps://fr.wikipedia.org/wiki/Algorithme_de_tri
 
+## philosophers :
+
+- Sur les threads, très bon guide de démarrage https://franckh.developpez.com/tutoriels/posix/pthreads/
+- Sur les sémaphores, bonne doc pour expliquer le concept: https://sites.uclouvain.be/SyllabusC/notes/Theorie/Threads/coordination.html
