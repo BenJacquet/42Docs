@@ -59,7 +59,7 @@
       ```
       call malloc wrt ..plt
       ```
-   Explications : https://www.tortall.net/projects/yasm/manual/html/objfmt-elf32-wrt.html
+   Explications pour le wrt ..plt : https://www.tortall.net/projects/yasm/manual/html/objfmt-elf32-wrt.html
   ## Les pointeurs : 
         global ft_example
         
