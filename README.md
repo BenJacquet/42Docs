@@ -35,9 +35,7 @@
 
  # Libasm : 
 
-  <p align="center">
-  <img src="https://imgur.com/j5jq8he" width="60%" />
-</p>
+  ![alt-text](https://github.com/42sommecaise/42Docs/blob/master/nasmstructure.png)
   ### initialiser une variable à 0 : 
     mov rax, 0     // 5 bytes : 1 pour le 'mov rax, imm32' et 4 pour les données immédiates
    - ou
