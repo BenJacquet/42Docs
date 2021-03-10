@@ -91,9 +91,8 @@
       } t_list;
       ```
    - Les variables d'une structure se suivent dans la mémoire comme dans un tableau 
-   - notre structure contient un void* (8 bytes) et \*next un pointeur sur notre prochaine structure
-  
-  
+   - notre structure contient un void* (8 bytes) et struct s_list un pointeur sur notre prochaine structure
+   - la taille de struct s_list dépend du contenu de la structure en l'occurence un void* donc le pointer fait 8 bytes
   
   
   
