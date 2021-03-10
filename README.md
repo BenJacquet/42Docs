@@ -35,11 +35,19 @@
   - algo pour faire un ligne d'un point A a un point B : https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm
   - minilibx linux : https://github.com/42Paris/minilibx-linux.git
 
- # libasm : 
+ # Libasm : 
 
   ### initialiser une variable à 0 : 
     mov rax, 0 // 5 bytes : 1 pour le 'mov rax, imm32' et 4 pour les données immédiates
     xor rax, rax // 2 bytes : 1 pour le 'xor r32, r/m32' et 1 pour l'operand
+  ### Les paramètres de fonction : 
+    RDI : First Argument
+    RSI : Second Argument
+    RDX : Third Argument
+    RCX : Fourth Argument
+    R8  : Fifth Argument
+    R9  : Sixth Argument
+  Si la fonction à plus de 6 paramètres alors ils seront empilés sur la stack du 7ème paramètre au dernier
   - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
  - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
  - register : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
@@ -48,14 +56,6 @@
  - jump if ?? : https://www.gladir.com/LEXIQUE/ASM/jumpif.htm
  - Testeur : https://github.com/cacharle/libasm_test
  - cours : https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf
-        
-        First Argument: RDI
-        Second Argument: RSI
-        Third Argument: RDX
-        Fourth Argument: RCX
-        Fifth Argument: R8
-        Sixth Argument: R9
-        le reste est empile sur la stack
 
 # ft_services :
   
