@@ -121,7 +121,7 @@
                   
           ; rdi est un pointer sur la structure // rdi pointe sur la case qui contient void* data
           ; [rdi] est le contenu de la case ou pointe rdi // [rdi] est notre void* data
-          ; [rdi + 8] est le contenu de la case ou pointe rdi + 8 bytes // [rdi + 8] est notre struct s_list *next
+          ; [rdi + 8] est le contenu de la case ou pointe rdi + 8 bytes // [rdi + 8] est struct s_list *next
   ### Liens utiles : 
  - Les instructions : https://en.wikipedia.org/wiki/X86_instruction_listings
  - Les registres : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
@@ -133,6 +133,7 @@
 
 # ft_services :
   
+ - https://www.notion.so/Ft_services-VM-852d4f9b0d9a42c1a2de921e4a2ac417
  - https://stackoverflow.com/questions/41509439/whats-the-difference-between-clusterip-nodeport-and-loadbalancer-service-types
  - https://metallb.universe.tf/configuration/
  - https://medium.com/faun/metallb-configuration-in-minikube-to-enable-kubernetes-service-of-type-loadbalancer-9559739787df
