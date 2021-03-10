@@ -71,13 +71,16 @@
         
     section .text
         ft_example:
-                              ; rdi est un double pointer
+                           ; rdi est un double pointer
+                              
             cmp rdi, 0     ; compare rdi à NULL // **str à NULL
             je return
             mov rdi, [rdi] ; initialise rdi au contenu de la case ou pointe rdi  // str = *str en c
-                              ; rdi est un simple pointer sur le début de la string
+            
+                           ; rdi est un simple pointer sur le début de la string
             cmp rdi, 0     ; compare rdi à NULL //  *str à NULL
             je return 
+            
          return : 
               ret
           
