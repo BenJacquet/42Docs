@@ -111,6 +111,10 @@
                   
              return : 
                   ret               ; return RAX
+                  
+                                    ; rdi est un pointer sur la structure
+                                    ; [rdi] est le contenu de la case ou pointe rdi // [rdi] est notre void* data
+                                    ; [rdi + 8] est le contenu de la case ou pointe rdi + 8 bytes // [rdi + 8] est notre struct s_list *next
   ### Liens utiles : 
  - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
  - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
