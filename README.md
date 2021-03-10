@@ -40,6 +40,8 @@
   ### initialiser une variable à 0 : 
     mov rax, 0 // 5 bytes : 1 pour le 'mov rax, imm32' et 4 pour les données immédiates
     xor rax, rax // 2 bytes : 1 pour le 'xor r32, r/m32' et 1 pour l'operand
+  ## Les fonctions : 
+ 
   ### Les paramètres de fonction : 
     RDI : First Argument
     RSI : Second Argument
@@ -47,7 +49,11 @@
     RCX : Fourth Argument
     R8  : Fifth Argument
     R9  : Sixth Argument
-  Si la fonction à plus de 6 paramètres alors ils seront empilés sur la stack du 7ème paramètre au dernier
+   - Si la fonction à plus de 6 paramètres alors ils seront empilés sur la stack du 7ème paramètre au dernier
+  ### Les appels de fonction :
+      call ft_example
+   - Une fonction prend toujours les mêmes registres comme paramètres
+   - Une fonction returne toujours dans le registre RAX 
   ### Les pointeurs : 
         global ft_example
         
