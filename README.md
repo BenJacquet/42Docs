@@ -123,8 +123,9 @@
  - Les registres : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
  - Les syscalls : https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
  - Les jump if : https://www.gladir.com/LEXIQUE/ASM/jumpif.htm
- -  : https://www.lacl.fr/tan/asm
- - cours : https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf
+ - Documentation officielle : https://www.nasm.us/doc/
+ - Documentation en français : https://www.lacl.fr/tan/as
+ - Documentation en anglais : https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf
  - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
 
 # ft_services :
