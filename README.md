@@ -93,7 +93,29 @@
    - Les variables d'une structure se suivent dans la mémoire comme dans un tableau 
    - notre structure contient un void* (8 bytes) et struct s_list un pointeur sur notre prochaine structure
    - la taille de struct s_list dépend du contenu de la structure en l'occurence un void* donc le pointer fait 8 bytes
-  
+   - Si on veut accéder à next (struct s_list) on va aller chercher dans la mémoire 8 bytes après data (void*)
+   - Fonction d'example :
+      ```
+            global ft_list_size
+            
+           ; ft_list_size(t_list *begin)  rdi = *begin
+           
+        section .text
+            ft_list_size : 
+                  xor rax, rax
+                  cmp rdi, 0
+                  je return
+                  
+               inc : 
+                    inc rax
+                
+              while :
+                  mov r8, [rdi + 8] ; le registre r8 devient next
+                  
+                  
+             return : 
+                  ret
+                  
   
   
   
