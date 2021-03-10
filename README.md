@@ -104,7 +104,7 @@
                   je return
                   
                count : 
-                    inc rax
+                    inc rax         ; incrémente RAX 
                 
               while :
                   mov r8, [rdi + 8] ; le registre r8 devient next
