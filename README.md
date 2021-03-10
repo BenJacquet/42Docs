@@ -99,8 +99,8 @@
            
         section .text
             ft_list_size : 
-                  xor rax, rax
-                  cmp rdi, 0
+                  xor rax, rax      ; initialise notre compteur RAX à 0
+                  cmp rdi, 0        ; compare begin à NULL
                   je return
                   
                count : 
@@ -114,7 +114,7 @@
                   jmp count         ; recommence le procédé jusqu'à que next (r8 dans le code) pointe sur NULL
                   
              return : 
-                  ret
+                  ret               ; return RAX
   ### Liens utiles : 
  - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
  - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
