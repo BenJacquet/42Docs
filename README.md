@@ -95,7 +95,6 @@
    - la taille de struct s_list dépend du contenu de la structure en l'occurence un void* donc le pointer fait 8 bytes
    - Si on veut accéder à next (struct s_list) on va aller chercher dans la mémoire 8 bytes après data (void*)
    #### Exemple :
-      ```
             global ft_list_size
             
            ; ft_list_size(t_list *begin)  rdi = *begin
@@ -118,6 +117,7 @@
                   
              return : 
                   ret
+  ### Liens utiles : 
  - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
  - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
  - register : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
