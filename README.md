@@ -8,7 +8,7 @@
   
  # ft_server : 
 
-   ## Lancement docker :
+   ### Lancement docker :
     docker build -t name .
     docker run -it -p port:port name
     docker cp <containerID>:/chemin_file_container /chemin_file_host
@@ -37,7 +37,7 @@
 
  # libasm : 
  
-  ## initialiser une variable à 0 : 
+  ### initialiser une variable à 0 : 
     'mov rax, 0'  utilise 5 bytes, 1 pour le 'mov rax, imm32' et 4 pour les données immédiates 
     'xor rax, rax' utilise 2 bytes, 1 pour le 'xor r32, r/m32' et 1 pour l'operand
  - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
