@@ -91,7 +91,14 @@
       } t_list;
       ```
   Les variables d'une structure se suivent dans la mémoire comme dans un tableau 
-  donc on à notre void* (8 bytes) + notre pointeur sur struct (8 bytes mais ça dépend du contenu de la structure en l'occurrence notre structure contient une void*)
+  donc on à notre void* (8 bytes)
+  et un pointeur sur notre prochaine structure (8 bytes mais ça dépend du contenu de la structure en l'occurrence notre structure contient une void*)
+  
+  
+  
+  
+  
+  
   - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
  - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
  - register : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
