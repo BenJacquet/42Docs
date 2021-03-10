@@ -49,11 +49,11 @@
     R9  : Sixth Argument
    - Si la fonction à plus de 6 paramètres alors ils seront empilés sur la stack du 7ème paramètre au dernier
   ### Les appels de fonction :
-   - Pour include une fonction :
+   #### Pour include une fonction :
       ```
        extern ft_example
        ```
-   - Pour appeler une fonction :
+   #### Pour appeler une fonction :
       ```
       call ft_example
       ```
@@ -106,20 +106,19 @@
                   cmp rdi, 0
                   je return
                   
-               inc : 
+               count : 
                     inc rax
                 
               while :
                   mov r8, [rdi + 8] ; le registre r8 devient next
-                  
+                  mov rdi, r8       ; current devient next // begin = begin->next
+                  cmp rdi, 0        ; compare current à NULL
+                  je return
+                  jmp count         ; recommence le procédé jusqu'à que next (r8 dans le code) pointe sur NULL
                   
              return : 
                   ret
-                  
-  
-  
-  
-  - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
+ - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
  - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
  - register : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
  - syscall for linux : https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
