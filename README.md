@@ -1,14 +1,14 @@
 # 42docs
 
-## netwhat :
+# netwhat :
   
   - cours sur le projet : https://github.com/rchallie/netwhat/blob/master/research.md
   - calculateur : https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/
   - cours openclassrooms : https://openclassrooms.com/fr/courses/857447-apprenez-le-fonctionnement-des-reseaux-tcp-ip
   
- ## ft_server : 
+ # ft_server : 
 
-   ### Lancement docker :
+   ## Lancement docker :
     docker build -t name .
     docker run -it -p port:port name
     docker cp <containerID>:/chemin_file_container /chemin_file_host
@@ -23,7 +23,7 @@
   - phpmyadmin : https://www.digitalocean.com/community/tutorials/how-to-install-phpmyadmin-from-source-debian-10
   - mysql command : http://g2pc1.bu.edu/~qzpeng/manual/MySQL%20Commands.htm
   
-## cub3d : 
+# cub3d : 
 
   - mlx : https://harm-smits.github.io/42docs/libs/minilibx/introduction.html
   - Tuto raycasting : https://lodev.org/cgtutor/raycasting.html
@@ -35,9 +35,9 @@
   - algo pour faire un ligne d'un point A a un point B : https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm
   - minilibx linux : https://github.com/42Paris/minilibx-linux.git
 
- ## libasm : 
+ # libasm : 
  
-  ### initialiser une variable à 0 : 
+  ## initialiser une variable à 0 : 
     'mov rax, 0'  utilise 5 bytes, 1 pour le 'mov rax, imm32' et 4 pour les données immédiates 
     'xor rax, rax' utilise 2 bytes, 1 pour le 'xor r32, r/m32' et 1 pour l'operand
  - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
@@ -57,7 +57,7 @@
         Sixth Argument: R9
         le reste est empile sur la stack
 
-## ft_services :
+# ft_services :
   
  - https://stackoverflow.com/questions/41509439/whats-the-difference-between-clusterip-nodeport-and-loadbalancer-service-types
  - https://metallb.universe.tf/configuration/
@@ -85,12 +85,12 @@
  - https://devopssec.fr/article/cours-complet-apprendre-technologie-docker#begin-article-section
  - https://devopssec.fr/article/cours-complet-apprendre-orchestrateur-kubernetes-k8s
 
-## push_swap :
+# push_swap :
 
 - fichier de correction : https://github.com/42sommecaise/42Docs/blob/master/message.txt
 - https://fr.wikipedia.org/wiki/Algorithme_de_trihttps://fr.wikipedia.org/wiki/Algorithme_de_tri
 
-## philosophers :
+# philosophers :
 
 - Sur les threads, très bon guide de démarrage https://franckh.developpez.com/tutoriels/posix/pthreads/
 - Sur les sémaphores https://sites.uclouvain.be/SyllabusC/notes/Theorie/Threads/coordination.html
