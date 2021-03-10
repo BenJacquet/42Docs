@@ -59,8 +59,13 @@
       ```
       call ft_example
       ```
-   - Une fonction prend toujours les mêmes registres comme paramètres
-   - Une fonction returne toujours dans le registre RAX 
+      Une fonction prend toujours les mêmes registres comme paramètres
+      Une fonction returne toujours dans le registre RAX 
+    - Si on appele une fonction d'une librairie avec le compilateur gcc : 
+      ```
+      call malloc wrt ..plt
+      ```
+   
   ### Les pointeurs : 
         global ft_example
         
