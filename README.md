@@ -37,6 +37,9 @@
 
  ## libasm : 
  
+  ### initialiser une variable à 0 : 
+    'mov rax, 0'  utilise 5 bytes, 1 pour le 'mov rax, imm32' et 4 pour les données immédiates 
+    'xor rax, rax' utilise 2 bytes, 1 pour le 'xor r32, r/m32' et 1 pour l'operand
  - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
  - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
  - register : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
