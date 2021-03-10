@@ -54,8 +54,11 @@
    - Pour include une fonction :
       ```
        extern ft_example
-       ````
+       ```
+   - Pour appeler une fonction :
+      ```
       call ft_example
+      ```
    - Une fonction prend toujours les mêmes registres comme paramètres
    - Une fonction returne toujours dans le registre RAX 
   ### Les pointeurs : 
