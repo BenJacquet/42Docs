@@ -122,7 +122,6 @@
           ; rdi est un pointer sur la structure // rdi pointe sur la case qui contient void* data
           ; [rdi] est le contenu de la case ou pointe rdi // [rdi] est notre void* data
           ; [rdi + 8] est le contenu de la case ou pointe rdi + 8 bytes // [rdi + 8] est notre struct s_list *next
-          ; mov r8, [rdi + 8] -- r8 est un pointer sur la prochaine structure 
   ### Liens utiles : 
  - Les instructions : https://en.wikipedia.org/wiki/X86_instruction_listings
  - Les registres : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
