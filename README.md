@@ -1,5 +1,3 @@
-# 42docs
-
 # netwhat :
   
   - cours sur le projet : https://github.com/rchallie/netwhat/blob/master/research.md
@@ -59,13 +57,13 @@
       ```
       call ft_example
       ```
-   Une fonction prend toujours les mêmes registres comme paramètres
-   Une fonction returne toujours dans le registre RAX 
+   - Une fonction prend toujours les mêmes registres comme paramètres
+   - Une fonction returne toujours dans le registre RAX 
    - Si on appele une fonction d'une librairie avec le compilateur gcc : 
       ```
       call malloc wrt ..plt
       ```
-   
+   Explications : https://www.tortall.net/projects/yasm/manual/html/objfmt-elf32-wrt.html
   ### Les pointeurs : 
         global ft_example
         
