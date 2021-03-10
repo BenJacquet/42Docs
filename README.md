@@ -64,7 +64,7 @@
       call malloc wrt ..plt
       ```
    Explications : https://www.tortall.net/projects/yasm/manual/html/objfmt-elf32-wrt.html
-  ### Les pointeurs : 
+  ## Les pointeurs : 
         global ft_example
         
         ; ft_example(char **str)  rdi = **str
@@ -81,6 +81,14 @@
          return : 
               ret
           
+   ### Liste chaînée : 
+   ```
+   typedef struct s_list
+   {
+          void *data;
+          struct s_list *next;
+   } t_list;
+   ```
   - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
  - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
  - register : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
