@@ -82,7 +82,7 @@
               ret
           
    ### Liste chaînée : 
-   - La structure : 
+   #### La structure :
       ```
       typedef struct s_list
       {
@@ -94,7 +94,7 @@
    - notre structure contient un void* (8 bytes) et struct s_list un pointeur sur notre prochaine structure
    - la taille de struct s_list dépend du contenu de la structure en l'occurence un void* donc le pointer fait 8 bytes
    - Si on veut accéder à next (struct s_list) on va aller chercher dans la mémoire 8 bytes après data (void*)
-   - Fonction d'example :
+   #### Exemple :
       ```
             global ft_list_size
             
