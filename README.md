@@ -82,13 +82,15 @@
               ret
           
    ### Liste chaînée : 
-   ```
-   typedef struct s_list
-   {
-          void *data;
-          struct s_list *next;
-   } t_list;
-   ```
+   - La structure : 
+      ```
+      typedef struct s_list
+      {
+              void *data;
+              struct s_list *next;
+      } t_list;
+      ```
+  Comme dans un tableau, les variables d'une structure se suivent dans la mémoire
   - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
  - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
  - register : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
