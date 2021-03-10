@@ -127,7 +127,6 @@
  - Documentation officielle : https://www.nasm.us/doc/
  - Documentation en français : https://www.lacl.fr/tan/as
  - Documentation en anglais : https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf
- - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
 
 # ft_services :
   
