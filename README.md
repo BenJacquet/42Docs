@@ -51,6 +51,10 @@
     R9  : Sixth Argument
    - Si la fonction à plus de 6 paramètres alors ils seront empilés sur la stack du 7ème paramètre au dernier
   ### Les appels de fonction :
+   - Pour include une fonction :
+      ```
+       extern ft_example
+       ````
       call ft_example
    - Une fonction prend toujours les mêmes registres comme paramètres
    - Une fonction returne toujours dans le registre RAX 
