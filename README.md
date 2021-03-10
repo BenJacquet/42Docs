@@ -37,7 +37,7 @@
 
   ### initialiser une variable à 0 : 
     mov rax, 0     // 5 bytes : 1 pour le 'mov rax, imm32' et 4 pour les données immédiates
-   ou
+   - ou
     ```
     xor rax, rax  // 2 bytes : 1 pour le 'xor r32, r/m32' et 1 pour l'operand
     ```
