@@ -35,7 +35,9 @@
 
  # Libasm : 
 
-  
+  <p align="center">
+  <img src="https://imgur.com/a/DgItryP" width="60%" />
+</p>
   ### initialiser une variable à 0 : 
     mov rax, 0     // 5 bytes : 1 pour le 'mov rax, imm32' et 4 pour les données immédiates
    - ou
