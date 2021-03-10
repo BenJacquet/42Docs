@@ -48,6 +48,23 @@
     R8  : Fifth Argument
     R9  : Sixth Argument
   Si la fonction à plus de 6 paramètres alors ils seront empilés sur la stack du 7ème paramètre au dernier
+  ### Les pointeurs : 
+        global ft_example
+        
+        ; ft_example(char **str)  rdi = **str
+        
+    section .text
+        ft_example:
+                              ; rdi est un double pointer
+            cmp rdi, 0     ; compare rdi à NULL // **str à NULL
+            je return
+            mov rdi, [rdi] ; initialise rdi au contenu de la case ou pointe rdi  // str = *str en c
+                              ; rdi est un simple pointer sur le début de la string
+            cmp rdi, 0     ; compare rdi à NULL //  *str à NULL
+            je return 
+         return : 
+              ret
+          
   - instruction : https://en.wikipedia.org/wiki/X86_instruction_listings
  - tuto : https://cs.lmu.edu/~ray/notes/nasmtutorial/
  - register : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
