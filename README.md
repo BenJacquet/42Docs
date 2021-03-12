@@ -128,7 +128,6 @@
   ### Liens utiles : 
  - Les instructions : https://en.wikipedia.org/wiki/X86_instruction_listings
  - Les registres : https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
- - Les syscalls : https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
  - Les jump if : https://www.gladir.com/LEXIQUE/ASM/jumpif.htm
  - Documentation officielle : https://www.nasm.us/doc/
  - Documentation en français : https://www.lacl.fr/tan/as
