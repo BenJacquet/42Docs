@@ -57,8 +57,8 @@
        extern ft_example
    #### Pour appeler une fonction :
       call ft_example
-   - Une fonction prend toujours les mêmes registres comme paramètres
-   - Une fonction return toujours dans le registre RAX 
+   - Une fonction prend toujours les mêmes registres comme paramètre à l'exception du syscall qui lui prend le registre RAX
+   - Une fonction return toujours dans le registre RAX
    - Si on appelle une fonction d'une librairie avec le compilateur gcc : 
       ```
       call malloc wrt ..plt
