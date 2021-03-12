@@ -164,7 +164,7 @@
 
 - fichier de correction : https://github.com/42sommecaise/42Docs/blob/master/message.txt
 - https://fr.wikipedia.org/wiki/Algorithme_de_trihttps://fr.wikipedia.org/wiki/Algorithme_de_tri
-- Commande pour generer n2 - n1 nombres aleatoires allant de n1 à n2 : ARG=`ruby -e "puts (n1..n2).to_a.shuffle.join(' ')"`; ./push_swap $ARG
+- Commande pour generer ((n2 - n1) + 1) nombres aleatoires allant de n1 à n2 : ARG=`ruby -e "puts (n1..n2).to_a.shuffle.join(' ')"`; ./push_swap $ARG
 
 # philosophers :
 
