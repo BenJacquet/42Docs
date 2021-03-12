@@ -134,33 +134,39 @@
  - Documentation en anglais : https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf
 
 # ft_services :
+  ### vm 42 : 
+   - https://www.notion.so/Ft_services-VM-852d4f9b0d9a42c1a2de921e4a2ac417
+  ## docker / kubernete : 
+  - https://devopssec.fr/article/cours-complet-apprendre-technologie-docker#begin-article-section
+  - https://devopssec.fr/article/cours-complet-apprendre-orchestrateur-kubernetes-k8
+  - https://kubernetes.io/fr/docs/tutorials/hello-minikube/
+  - https://aws.amazon.com/fr/blogs/france/demystifier-entrypoint-et-cmd-dans-docker/
+  - https://github.com/cloudogu/k8s-diagrams
+  - https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/
+  - https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/
+  - https://stackoverflow.com/questions/41509439/whats-the-difference-between-clusterip-nodeport-and-loadbalancer-service-types
   
- - https://www.notion.so/Ft_services-VM-852d4f9b0d9a42c1a2de921e4a2ac417
- - https://stackoverflow.com/questions/41509439/whats-the-difference-between-clusterip-nodeport-and-loadbalancer-service-types
- - https://metallb.universe.tf/configuration/
- - https://medium.com/faun/metallb-configuration-in-minikube-to-enable-kubernetes-service-of-type-loadbalancer-9559739787df
- - https://kubernetes.io/fr/docs/tutorials/hello-minikube/
+  ## metallb : 
+  - https://medium.com/faun/metallb-configuration-in-minikube-to-enable-kubernetes-service-of-type-loadbalancer-9559739787df
+  - https://metallb.universe.tf/configuration/
+  - https://metallb.universe.tf/usage/
+
+  ## mysql : 
+  - https://linoxide.com/containers/deploy-mysql-on-kubernetes/
+  - https://stackoverflow.com/questions/29420870/install-mysql-in-dockerfile
+  - http://dba.fyicenter.com/faq/mysql/What-Is-MySQL-Server-Daemon-mysqld.html
+  - https://www.serverlab.ca/tutorials/containers/kubernetes/deploy-phpmyadmin-to-kubernetes-to-manage-mysql-pods/
+  - https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line
+ 
+ ## build : 
  - https://stackoverflow.com/questions/52310599/what-does-minikube-docker-env-mean
  - https://stackoverflow.com/questions/56392041/getting-errimageneverpull-in-pods
  - https://stackoverflow.com/questions/42564058/how-to-use-local-docker-images-with-minikube
- - https://medium.com/faun/metallb-configuration-in-minikube-to-enable-kubernetes-service-of-type-loadbalancer-9559739787df
- - https://linoxide.com/containers/deploy-mysql-on-kubernetes/
- - https://stackoverflow.com/questions/29420870/install-mysql-in-dockerfile
- - https://aws.amazon.com/fr/blogs/france/demystifier-entrypoint-et-cmd-dans-docker/
- - https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/
- - https://emcitv.com/bible/strong-biblique-grec-kubernetes-2942.html
- - http://dba.fyicenter.com/faq/mysql/What-Is-MySQL-Server-Daemon-mysqld.html
- - https://metallb.universe.tf/usage/
- - https://www.serverlab.ca/tutorials/containers/kubernetes/deploy-phpmyadmin-to-kubernetes-to-manage-mysql-pods/
- - https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line
- - https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application/
  - https://blog.ruanbekker.com/blog/2017/08/26/building-a-alpine-nginx-php-fpm-image-on-docker-for-php-applications/
- - https://github.com/cloudogu/k8s-diagrams
- - https://www.ionos.fr/digitalguide/serveur/know-how/quest-ce-quun-reverse-proxy-le-serveur-reverse-proxy/
  - https://phil.writesthisblog.com/https-certificat-ssl-selfsigned/
- - https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/
- - https://devopssec.fr/article/cours-complet-apprendre-technologie-docker#begin-article-section
- - https://devopssec.fr/article/cours-complet-apprendre-orchestrateur-kubernetes-k8s
+
+ ## reverse proxy :
+ - https://www.ionos.fr/digitalguide/serveur/know-how/quest-ce-quun-reverse-proxy-le-serveur-reverse-proxy/
 
 # push_swap :
 
