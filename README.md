@@ -179,3 +179,6 @@
 
 - Sur les threads, très bon guide de démarrage https://franckh.developpez.com/tutoriels/posix/pthreads/
 - Sur les sémaphores https://sites.uclouvain.be/SyllabusC/notes/Theorie/Threads/coordination.html
+
+# CPP 2 :
+- sujet de correction : https://files.slack.com/files-pri/T039P7U66-F01S6DJ1ZAB/image.png
